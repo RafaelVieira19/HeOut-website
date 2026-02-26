@@ -1,0 +1,81 @@
+@media (max-width:1000px){
+  .caixa-options{
+  display: flex;
+  margin-left: 250px;
+  margin-top: 100px;
+  }
+
+  .imagem{
+    width: 400px;
+  }
+}
+
+.imagem img{
+  width: 100%;
+}
+
+.nome{
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-size: x-large;
+}
+
+.cor, .tamanho{
+  font-size: 16px;
+  color: gray;
+}
+
+.info{
+  position: relative;
+}
+
+.info button{
+  padding: 7px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.info button:active{
+  opacity: 0.5;
+}
+
+.preco{
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+@media(min-width:1000.1px){
+  .caixa-options{
+  display: flex;
+  margin-left: 250px;
+  margin-top: 100px;
+  }
+
+  .imagem{
+    width: 500px;
+  }
+
+
+    .nome{
+    margin-bottom: 10px;
+    margin-top: 80px;
+    font-size: 30px;
+  }
+
+  .cor, .tamanho{
+    font-size: 20px;
+    color: gray;
+  }
+
+  .info button{
+    font-size: 15px;
+    padding: 7px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 1px;
+    cursor: pointer;
+  }
+}
